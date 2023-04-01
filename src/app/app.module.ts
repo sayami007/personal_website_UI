@@ -12,6 +12,9 @@ import { ServicesScreenComponent } from './screens/services-screen/services-scre
 import { NavbarComponentComponent } from './components/navbar-component/navbar-component.component';
 import { ContactScreenComponent } from './screens/contact-screen/contact-screen.component';
 import { ButtonComponentComponent } from './components/button-component/button-component.component';
+import { HeaderComponentComponent } from './components/header-component/header-component.component';
+import { EducationInfoCardComponent } from './screens/qualification-screen/components/education-info-card/education-info-card.component';
+import { ExperienceInfoCardComponent } from './screens/qualification-screen/components/experience-info-card/experience-info-card.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +26,10 @@ import { ButtonComponentComponent } from './components/button-component/button-c
     ServicesScreenComponent,
     NavbarComponentComponent,
     ContactScreenComponent,
-    ButtonComponentComponent
+    ButtonComponentComponent,
+    HeaderComponentComponent,
+    EducationInfoCardComponent,
+    ExperienceInfoCardComponent
   ],
   imports: [
     BrowserModule,
