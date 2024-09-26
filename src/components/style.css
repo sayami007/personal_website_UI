@@ -1,0 +1,18 @@
+@keyframes skillTransition {
+    0% {
+        opacity: 50%;
+        transform: translateY(90px)
+    }
+
+    100% {
+        opacity: 100%;
+        transform: translateY(0px)
+    }
+}
+
+
+#skill {
+    animation-name: skillTransition;
+    animation-duration: 2s;
+    /* animation: skillTransition 2s ease-in infinite infinite both; */
+}

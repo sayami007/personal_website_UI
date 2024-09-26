@@ -1,0 +1,7 @@
+.navbar {
+    @apply bg-red-200 w-[300px] h-[100vh] flex flex-col gap-2 items-center flex-1
+}
+
+.navbar-content {
+    @apply flex-1 self-center place-content-center
+}
